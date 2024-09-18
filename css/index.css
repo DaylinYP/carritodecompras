@@ -24,11 +24,18 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     gap: 15%;
     height: 70px;
     top: 0;
     position: fixed; /*Lo coloca sobre los elementos*/
+}
+.colaboradoresp{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 300;
 }
 .scroll{
     background-color: aliceblue;
@@ -80,7 +87,7 @@ header{
     font-size: 20px;
     font-weight: 500;
 }
-.informacion .p span{
+.informacion .precio span{
     font-size: 17px;
     font-weight: 300;
 }
@@ -94,6 +101,6 @@ header{
     font-weight: 300;
     cursor: pointer;
 }
-.informacion:hover{
+.informacion button:hover{
     background-color: #2D4263;
 }

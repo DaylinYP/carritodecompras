@@ -13,3 +13,7 @@ window.addEventListener("scroll", function(){
         header.classList.remove("scroll")
     }
 })
+
+
+/************************************** */
+const cartInfo = document.querySelector('.cart-product')
