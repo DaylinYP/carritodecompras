@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+    padding-top: 80px;
+}
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+img{
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    top: 0;
+    gap: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.carrito{
+    filter: invert(100);
+    width: 45px;
+    height: auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+.contendor>div:hover{
+    background-color: gray;
+}
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.informacion .precio{
+    font-size: 25px;
+    font-weight: 500px;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: aliceblue;
+    width: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: aliceblue;
+}
