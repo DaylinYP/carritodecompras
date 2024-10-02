@@ -135,6 +135,7 @@ function mostrarElementosLista() {
   }
   total.innerHTML = `<p>Valor total <p>Q${valortotal}</p> </p>
 `
+}
 
 function eliminar(indice){
   let van = true
@@ -148,21 +149,21 @@ function eliminar(indice){
       i += 1
   }
   
-    guardarAlmacenamientoLocal("productos", productos)
+  guardarAlmacenamientoLocal("productos", productos)
 
-    numero.innerHTML = lista.length
-    if (lista.length == 0) {
+  numero.innerHTML = lista.length
+  if (lista.length == 0){
       numero.classList.remove("disenoNumero")
-    }
-    visualizarProductos()
-    mostrarElementosLista()
   }
+  visualizarProductos()
+  mostrarElementosLista()
+}
   x.addEventListener("click", function(){
     body.style.overflow = "auto"
-    contenedorCompra.classList.remove('none')
-    contenedorCompra.classList.add('contenedorCompra')
-    informacionCompra.classList.add('informacionCompra')
-  })
-}
+    contenedorCompra.classList.add('none')
+    contenedorCompra.classList.remove('contenedorCompra')
+    informacionCompra.classList.remove('informacionCompra')
+})
+
 
 
